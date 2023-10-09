@@ -9,19 +9,19 @@ function App() {
 
 
   return (
-    <div >
-       <form>
-        <label for='name'>Name: </label>
-        <input type='text' id='name'></input><br></br>
-        <label for= 'post'> Post: </label>
-        <input type='text' id='post'></input>
-       </form>
-     
-
-   
+    <div>
+      <table>
+        <tr>
+          <th>Name</th>
+        </tr>
+        <tr>
+          <th>Post</th>
+        </tr>
+        <button>Like</button><button>Dislike</button>
+      </table>
     
-
     </div>
+  
   );
 }
 
