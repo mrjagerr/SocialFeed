@@ -12,14 +12,14 @@ function App() {
   function addNewPost(entry){
     let tempPost =[entry,...entries];
     setEntries(tempPost);
-    
+
   }
 
 
 
   return (
     <div>
-      <Post/>
+      <Post addNewPostFeed={addNewPost}/>
       <DisplayPost parentEntries={entries}/>
     
     </div>

@@ -9,8 +9,9 @@ const DisplayPost = (props) => {
             return(
 
              <table>
-                 <tr>Name {entry.name}</tr>
-                <tr>Post {entry.post}</tr>
+                 <tr> {entry.name}</tr>
+                <tr> {entry.post}</tr>
+                <button>Like</button> <button>Dislike</button>
              </table>
             
             );
@@ -18,7 +19,7 @@ const DisplayPost = (props) => {
        </tbody>
       
 
-        <button>Like</button><button>Dislike</button>
+        
      
         </table>
      

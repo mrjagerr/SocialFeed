@@ -16,6 +16,7 @@ const Post = (props) => {
         };
         
         console.log(newEntry);
+        props.addNewPostFeed(newEntry);
     }
 
     return (
