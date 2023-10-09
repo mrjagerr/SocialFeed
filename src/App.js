@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import DisplayPost from './Components/DisplayPost/DisplayPost';
+import Post from './Components/Post/Post';
+
 
 
 function App() {
@@ -10,15 +13,8 @@ function App() {
 
   return (
     <div>
-      <table>
-        <tr>
-          <th>Name</th>
-        </tr>
-        <tr>
-          <th>Post</th>
-        </tr>
-        <button>Like</button><button>Dislike</button>
-      </table>
+      <Post/>
+      <DisplayPost/>
     
     </div>
   
