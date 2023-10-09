@@ -21,10 +21,12 @@ const Post = (props) => {
 
     return (
         <form onSubmit={handleSubmit}>
-        <label for='name'>Name: </label>
-        <input type='text' value={name} onChange={(event)=>setName(event.target.value)} id='name'></input><br></br>
+        <label for='name'>Name: </label><br />
+        <input type='text' value={name} onChange={(event)=>setName(event.target.value)} id='name'></input>
+        <div></div>
         <label for= 'post'> Post: </label>
-        <input type='text' value={post} onChange={(event)=> setPost(event.target.value)} id='post'></input>
+        <div></div>
+        <input type='text'  className='input-box' value={post} onChange={(event)=> setPost(event.target.value)} id='post'></input>
         <button type="submit"> Post </button>
        </form>
 

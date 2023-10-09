@@ -1,4 +1,8 @@
 
+import {PiThumbsUpBold,PiThumbsDownBold} from "react-icons/pi";
+
+
+
 
 const DisplayPost = (props) => {
     return ( 
@@ -11,7 +15,7 @@ const DisplayPost = (props) => {
              <table>
                  <tr> {entry.name}</tr>
                 <tr> {entry.post}</tr>
-                <button>Like</button> <button>Dislike</button>
+                <button className="likeButton" ><PiThumbsUpBold/></button> <button><PiThumbsDownBold/></button>
              </table>
             
             );

@@ -1,0 +1,44 @@
+.borderbox1{
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin:2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    height: 20rem;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    justify-content: flex-start;
+   
+    
+
+}
+.borderbox{
+    display: flex;
+    align-self: center;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin:2rem;
+    padding: 2rem;
+    align-items: start;
+    justify-content: center;
+    height: 100rem;
+    border-radius: 2rem;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+
+}
+.body{
+    color: #be0c0c;
+   
+}
+.box1{
+    align-items: center;
+}
+.input-box {
+ 
+    width: 50rem;
+
+
+  }
