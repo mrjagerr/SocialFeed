@@ -39,6 +39,23 @@
 .input-box {
  
     width: 50rem;
-
-
   }
+.active{
+    color: rgb(0, 187, 78);
+}
+ .inactive{
+    color:black
+ }
+.active1{
+    color: rgb(208, 4, 4);
+}
+ .inactive1{
+    color:black
+ }
+ .commentbox{
+    display: flex;
+   justify-items: right;
+    
+  
+
+ }

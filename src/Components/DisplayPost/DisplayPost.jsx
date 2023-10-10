@@ -1,5 +1,7 @@
 
 import {PiThumbsUpBold,PiThumbsDownBold} from "react-icons/pi";
+import LikeButton from "../LikeButton/Likebutton";
+import DislikeButton from "../DislikeButton/DislikeButton";
 
 
 
@@ -12,10 +14,17 @@ const DisplayPost = (props) => {
        {props.parentEntries.map((entry)=>{
             return(
 
-             <table>
-                 <tr> {entry.name}</tr>
-                <tr> {entry.post}</tr>
-                <button className="likeButton" ><PiThumbsUpBold/></button> <button><PiThumbsDownBold/></button>
+             <table className='container-fluid'>
+               <div className="commentbox"> 
+                  <tr> {entry.name}</tr>
+                  <tr> {entry.post}</tr>
+                </div>
+                <div>
+                  <LikeButton message = "thumbsup"/> <DislikeButton message ="Thumbsdown"/>
+                </div>
+                
+                
+            
              </table>
             
             );
