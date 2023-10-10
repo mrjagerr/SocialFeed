@@ -14,17 +14,16 @@ const DisplayPost = (props) => {
        {props.parentEntries.map((entry)=>{
             return(
 
-             <table className='container-fluid'>
+             <table className='container'>
                <div className="commentbox"> 
-                  <tr> {entry.name}</tr>
+                  <tr className="namesettings"> {entry.name}</tr>
                   <tr> {entry.post}</tr>
                 </div>
-                <div>
+                <div className="buttonlocation1">
                   <LikeButton message = "thumbsup"/> <DislikeButton message ="Thumbsdown"/>
                 </div>
-                
-                
-            
+                <hr></hr>
+
              </table>
             
             );

@@ -18,7 +18,7 @@ const DislikeButton = () => {
   
 return(
      
-   <button className={dislikeButton} onClick={handleClick}>DislikePlaceholder</button>
+   <button className={dislikeButton} onClick={handleClick}></button>
      );
 }
  

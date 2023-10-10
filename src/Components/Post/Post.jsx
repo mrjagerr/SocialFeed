@@ -18,18 +18,30 @@ const Post = (props) => {
         console.log(newEntry);
         props.addNewPostFeed(newEntry);
     }
+    
 
     return (
         <form onSubmit={handleSubmit}>
-        <label for='name'>Name: </label><br />
-        <input type='text' value={name} onChange={(event)=>setName(event.target.value)} id='name'></input>
-        <div></div>
-        <label for= 'post'> Post: </label>
-        <div></div>
-        <input type='text'  className='input-box' value={post} onChange={(event)=> setPost(event.target.value)} id='post'></input>
-        <button type="submit"> Post </button>
+       
+        <div >
+            <div >
+            <label for='name'>Name: </label>
+            </div>
+            <div className="commentboxpostion2">
+                <input type='text' value={name} onChange={(event)=>setName(event.target.value)} id='name'></input>
+            </div>
+            <div >
+            <label for= 'post'> Post: </label>
+            </div>
+            <div className="commentboxpostion2">
+                <textarea type='text'  className='input-box' value={post} onChange={(event)=> setPost(event.target.value)} id='post'></textarea>
+            </div>
+            <div className="buttonlocation">
+            <   button type="submit"> Post </button>
+            </div>
+        </div>
        </form>
-
+       
       );
 }
  

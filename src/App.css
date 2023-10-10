@@ -1,3 +1,7 @@
+
+
+
+
 .borderbox1{
     display: flex;
     border: 1px;
@@ -10,6 +14,8 @@
     height: 20rem;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
     justify-content: flex-start;
+    background-color: white;
+    width: 87vh
    
     
 
@@ -24,38 +30,103 @@
     padding: 2rem;
     align-items: start;
     justify-content: center;
-    height: 100rem;
+    height: 100vh;
     border-radius: 2rem;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    background-color: white;
+    width: 87vh;
 
 }
-.body{
-    color: #be0c0c;
-   
-}
+
 .box1{
     align-items: center;
 }
 .input-box {
- 
-    width: 50rem;
+    
+    width: 75vh;
+    height: 15vh;
   }
 .active{
-    color: rgb(0, 187, 78);
+    background-image: url(icons/Thumbsupactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+   
 }
  .inactive{
-    color:black
+    background-image: url(icons/Thumbsupinactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+
+    
  }
 .active1{
-    color: rgb(208, 4, 4);
+    background-image: url(icons/Thumbsdownactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
 }
  .inactive1{
-    color:black
+    background-image: url(icons/Thumbsdowninactive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
  }
- .commentbox{
-    display: flex;
-   justify-items: right;
-    
-  
 
+ .commentbox{
+   position:relative;
+   right: 300%;
+    
+
+   
+   
  }
+ hr{
+    
+    position: relative;
+    width: 800%;
+    right: 350%;
+    
+ }
+ .namesettings{
+    font-weight: bolder;
+    text-transform: capitalize;
+ }
+.body{
+    background-color: rgb(17, 135, 135);
+}
+.header{
+    background-color: white;
+}
+.buttonlocation{
+    position: relative;
+    left:150%
+
+}
+.buttonlocation1{
+    position: relative;
+    left:325%
+}
+
+
+.commentboxpostion2{
+    position: relative;
+    left: 6vh;
+    bottom: 2vh;
+    text-align: start;
+    width: 30rem;
+    vertical-align: text-top;
+}

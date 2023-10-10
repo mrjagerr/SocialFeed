@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import {PiThumbsUpBold,PiThumbsDownBold} from "react-icons/pi";
 
 
 const LikeButton = () => {
@@ -18,7 +19,7 @@ const LikeButton = () => {
   
 return(
      
-   <button className={likeButton} onClick={handleClick}>LikePlaceholder</button>
+   <button className={likeButton} onClick={handleClick}> </button>
      );
 }
  
