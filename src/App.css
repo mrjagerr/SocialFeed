@@ -106,14 +106,14 @@
     text-transform: capitalize;
  }
 .body{
-    background-color: rgb(17, 135, 135);
+    background-color: #0db4f2;
 }
 .header{
     background-color: white;
 }
 .buttonlocation{
     position: relative;
-    left:150%
+    left:104%;
 
 }
 .buttonlocation1{
@@ -129,4 +129,20 @@
     text-align: start;
     width: 30rem;
     vertical-align: text-top;
+    width :90%
 }
+.commentboxpostion1{
+    position: relative;
+    left: 6vh;
+    bottom: 2vh;
+    text-align: start;
+    width: 30rem;
+    vertical-align: text-top;
+    display: flex;
+   
+   
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #F24B0D;
+  }

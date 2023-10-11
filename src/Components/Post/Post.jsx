@@ -27,7 +27,7 @@ const Post = (props) => {
             <div >
             <label for='name'>Name: </label>
             </div>
-            <div className="commentboxpostion2">
+            <div className="commentboxpostion1">
                 <input type='text' value={name} onChange={(event)=>setName(event.target.value)} id='name'></input>
             </div>
             <div >
@@ -35,10 +35,12 @@ const Post = (props) => {
             </div>
             <div className="commentboxpostion2">
                 <textarea type='text'  className='input-box' value={post} onChange={(event)=> setPost(event.target.value)} id='post'></textarea>
+                    <div className="buttonlocation">
+                        < button className="button1" type="submit"> Post </button>
+                    </div>
+                
             </div>
-            <div className="buttonlocation">
-            <   button type="submit"> Post </button>
-            </div>
+           
         </div>
        </form>
        
